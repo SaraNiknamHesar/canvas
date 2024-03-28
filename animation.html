@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* ساخت بدون کنوس */
+    /* body {
+        margin: 0;
+        position: relative;
+    }
+
+    #ball {
+        width: 40px;
+        height: 40px;
+        background-color: red;
+        border-radius: 50%;
+        position: fixed;
+        left: 10px;
+        top: 30px;
+    } */
+    /* ساخت با کنوس  */
+    body {
+        margin: 0;
+
+    }
+
+    canvas {
+        background-color: white;
+    }
+</style>
+
+<body>
+    <!-- <div id="ball"></div> -->
+    <canvas></canvas>
+</body>
+<script>
+    // رویکرد اول
+    // let ball = document.querySelector("#ball");
+    // let offset = 10;
+    // setInterval(() => {
+    //     ball.style.left = offset + "px";
+    //     offset += 1;
+    // }, 10)
+    // رویکرد دوم که بهتر است
+    // let ball = document.querySelector("#ball");
+    // let offset = 10;
+    // function animate() {
+    //     ball.style.left = offset + "px";
+    //     offset += 1;
+    //     requestAnimationFrame(animate);
+    // }
+    // animate();
+    // ساخت انیمیشن با کنوس بهترین راه
+    // let cac.clearRect(0, 0, window.innerWidth, window.innerHeight);nvas = document.querySelector("canvas");
+    // canvas.width = window.innerWidth;
+    // canvas.height = window.innerHeight;
+    // let c = canvas.getContext("2d");
+    // let r = 2;
+    // let x = randomIntFromInterval(0 + r, window.innerWidth - r);
+    // let y = randomIntFromInterval(0 + r, window.innerHeight - r);
+    // let vx = (Math.random() - 0.5)*2;
+    // let vy = (Math.random() - 0.5)*2;
+    // function animate() {
+    //     
+    //     c.beginPath();
+    //     c.arc(x, y, r, 0, 2 * Math.PI);
+    //     c.fillStyle = "red";
+    //     c.fill();
+    //     if (x + r > window.innerWidth || x - r < 0) {
+    //         vx = -vx;
+    //     }
+    //     if (y + r > window.innerHeight || y - r < 0) {
+    //         vy = -vy;
+    //     }
+    //     x += vx;
+    //     y += vy;
+    //     requestAnimationFrame(animate);
+    // }
+    // animate();
+    // function randomIntFromInterval(min, max) {
+    //     return Math.floor(Math.random() * (max - min + 1) + min);
+    // }
+    // ساخت انیمیشن با کنوس بهترین راه
+
+    // ساخت انیمیشن با شی گرایی کنوس بهترین راه
+
+    // پایان ساخت انیمیشن با شی گرایی کنوس بهترین راه
+
+</script>
+
+</html>
